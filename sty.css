@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: #1690a7;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100vh;
+
+    
+    /* flex-direction: column;   */
+}
+
+.done h1{
+    border-bottom: 2px solid rgb(160, 4, 4);
+   text-align: center; 
+   font-size: 50px;
+   margin-top: 20px;
+}
+
+.spacec li {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.spacec li a{
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    margin: 20px;
+    width: 15%;
+    border-bottom: 2px solid red;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    }
+
+
+    .spacec li a:hover{
+        background-color: aquamarine;
+    }
+
+    .logout-btn a{
+        background: #555;
+        font-size: 20px;
+        float: right;
+        margin-right: 30px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .logout-btn a:hover{
+        background-color: blue;
+    }
+
+    .img img{
+        border: 22px solid #6a97a0;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        width: 55%;
+        margin-right: 10%;
+        display: flex;
+        float: right;
+        margin-bottom: 40px;   
+    }
+
+    .footer{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        /* padding: 100px 0 30px; */
+        line-height: 20px;
+        
+    }
+     .row{
+        border-top: 2px solid red;
+        background-color: #ccc;
+        /* text-align: center; */
+        width: 100%;
+        /* color: rgb(241, 217, 217); */
+        margin-top: 20px;
+        border-radius: 14px;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+     }
+
+     .row h3{
+        /* margin-left: 20px; */
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-family: inherit;
+        color: rgb(46, 46, 139);
+     } 
+     .col{
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-basis: 20%;
+        padding: 10px;
+        margin-top: 30px;
+        
+     }
+
+     .col:hover{
+        
+        border-top: 3px solid red;
+        width: 30px;
+     }
+     form{
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        text-decoration: transparent;
+        border-bottom: 2px solid red;
+     }
+
+     form .far{
+        font-size: 22px;
+        margin-right: 10px;
+     }
+
+     form input{
+        border-radius: 5px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        font-size: 20px;
+        width: 100%;
+        background: transparent;
+        color: blue;
+        outline: none;
+     }
+
+     form button{
+        background: transparent;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+     }
+
+     form button:hover {
+        width: 50px;
+        background-color: white;
+     }
+
+    
